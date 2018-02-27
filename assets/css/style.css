@@ -1,0 +1,332 @@
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+.maincontent {
+    width: 630px;
+    height: auto;
+    background-color: #ffffff;
+    padding: 20px 20px 100px 20px;
+    align-self: flex-start;
+}
+
+body {
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    background-color: #4DD0E1;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+html {
+    height: 100%;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    background-color:#fff;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.container {
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-between; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    flex-wrap: wrap;
+    width: 960px;
+    margin: 20px auto 20px auto;
+}
+
+.connect {
+    width: 200px;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    align-self: flex-start;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+hr {
+    margin: 20px 0 30px 0;
+}
+
+img.profilepic {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.footer {
+    background-color:#fff;
+    opacity:0.8;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    left:0px;
+    bottom:0px;
+    padding: 20px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.name {
+    width: 670px;
+    height: auto;
+    text-align: center;
+    align-self: flex-start;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.name-outside {
+    display: flex;
+    width: 950px;
+    height: auto;
+    justify-content: space-between;
+}
+
+.name-container {
+    width: auto;
+    height: auto;
+}
+
+.name-inside {
+    width: 250px;
+    height: 50px;
+    background-color: #4DD0E1;
+    align-self: flex-start;
+    padding: 20px 0 0 0;
+}
+
+.links-container {
+    display: flex;
+    width: 220px;
+    height: auto;
+    text-align: center;
+    align-self: flex-end;
+    flex-wrap: wrap;
+}
+
+.links {
+    width: 70px;
+    height: 50px;
+    padding: 20px 0 0 0;
+}
+
+.links-mid {
+    width: 70px;
+    height: 50px;
+    border-right: 1px dotted #4DD0E1;
+    border-left: 1px dotted #4DD0E1;
+    padding: 20px 0 0 0;
+}
+
+.profilepic {
+    margin: 4px 10px 0px 0px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: black;
+}
+
+/* social media icons */
+
+.socialmedia {
+    width: 30%;
+    height: 30%;
+}
+
+/* Portfolio page styles */
+
+.portfolio-1 {
+    background-image: url("./../images/phone.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+.portfolio-2 {
+    background-image: url("./../images/ipad.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+.portfolio-3 {
+    background-image: url("./../images/ipad2.jpg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+.portfolio-4 {
+    background-image: url("./../images/ipad3.jpg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+.portfolio-5 {
+    background-image: url("./../images/laptop.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+.title {
+    background-color: #4DD0E1;
+    width: 93.4%;
+    height: 20px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: o;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Contact form styles */
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    background-color: #f6f6f6;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4DD0E1;
+}
+.form-container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+textarea {
+    height:200px;
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 980px) {
+  
+    .container {
+      width: 960px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+  
+    .container, .connect {
+      width: 500px;
+    }
+
+    .links-container {
+        width: 80%;
+
+    }
+
+    .portfolio-1, .portfolio-2, .portfolio-3, .portfolio-4, .portfolio-5 {
+        width: 100%;
+        background-size: 120%;
+    }
+
+    .name, .name-outside {
+        width: 70%;
+
+    }
+  }
+
+@media screen and (max-width: 640px) {
+
+    .container, .connect {
+      width: 500px;
+    }
+
+    .nav-container {
+        width: 500px;
+        flex-wrap: wrap;
+        margin: auto;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .links-container {
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .links, .links-mid {
+        width: 33%;
+    }
+
+    .name-outside, .name, .name-inside {
+        width: 500px;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+  }
